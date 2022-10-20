@@ -1,13 +1,13 @@
-#Counts of each Unique Open Vulnerability
+# Counts of each Unique Open Vulnerability
 
 This POC python script will generate a CSV (ovsh.csv) with the Counts of each Unique Open Vulnerability in your Kenna Environment.
 
-#How It Does It
+# How It Does It
 Starts A Full Data Export Of All Open Vulnerabilities (Data Export)
 Waits For Data Export To Be Complete And Downloads Zipped file.
 Coverts JSON File to Pandas DataFrame.
 
-#How to Use It
+# How to Use It
 Update this line to point to your Kenna API URL:
 
 base_url = "https://api.kennasecurity.com/"
