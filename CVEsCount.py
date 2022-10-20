@@ -38,7 +38,7 @@ params = (
 response = requests.get(url, headers=headers, params=params)
 while True:
     if (response.status_code != 200):
-        print("Waiting 15 Seconds For Data Dump.")
+        print("Waiting 15 Seconds For Data Export.")
         time.sleep(15)
         response = requests.get(url, headers=headers, params=params)
     if (response.status_code == 200):
