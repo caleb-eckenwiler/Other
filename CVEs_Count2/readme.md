@@ -1,6 +1,6 @@
-# Counts of each Unique Open Vulnerability
+# List and Count of each Unique Open Vulnerability
 
-This POC python script will generate a CSV (count2.csv) with the Counts of each Unique Open Vulnerability in your Kenna Environment.
+This POC python script will generate a CSV (uniq_vulns.csv) with the count of each unique open vulnerability in your Kenna Environment.
 
 # How It Does It
 - Starts A Full Data Export Of All Open Vulnerabilities (Data Export)
