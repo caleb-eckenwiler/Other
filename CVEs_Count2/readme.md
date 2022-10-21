@@ -22,4 +22,4 @@ Install the needed python requirements.
 
 Run the scipt.
 
-```python3 count.py```
+```python3 count2.py```
