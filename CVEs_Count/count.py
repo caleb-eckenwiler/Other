@@ -9,10 +9,10 @@ from tqdm.auto import tqdm
 # Base URL of API Endpoint. 
 base_url = "https://api.kennasecurity.com/"
 
-# Small Demo
+# Key
 RiskToken = "PasteAPIKeyHere"
 
-# Setup Data Dump
+# Setup Data Export
 headers = {
     'X-Risk-Token':  RiskToken,
     'Content-type': 'application/json',
