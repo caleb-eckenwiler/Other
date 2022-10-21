@@ -26,7 +26,7 @@ response = requests.post(url, headers=headers, data=data)
 data = json.loads(response.content)
 search_id = data['search_id']
 
-# Pull Data Dump
+# Pull Data Export
 headers = {
     'X-Risk-Token': RiskToken ,
 }
@@ -55,7 +55,7 @@ data = data['vulnerabilities']
 df = pd.json_normalize(data)
 df_cve = df[df['cve_id'].str.contains("CVE-")]
 df_cve = df_cve['cve_id']
-df_cve = df_cve.count_duplicates()
+df_cve = df_cve.value_counts(dropna=False).reset_index(name='count')
 
 df.to_csv("opencves.csv", index=False)
 print(df)
