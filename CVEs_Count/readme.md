@@ -10,16 +10,16 @@ Coverts JSON File to Pandas DataFrame.
 # How to Use It
 Update this line to point to your Kenna API URL:
 
-base_url = "https://api.kennasecurity.com/"
+```base_url = "https://api.kennasecurity.com/"```
 
 Update this line to include your Kenna API key:
 
-RiskToken = "PasteKennaAPIKEyHere"
+```RiskToken = "PasteKennaAPIKEyHere"```
 
 Install the needed python requirements.
 
-pip3 install -r requirements.txt
+```pip3 install -r requirements.txt```
 
 Run the scipt.
 
-python3 OVSH.py
+```python3 CVEsCount.py```
